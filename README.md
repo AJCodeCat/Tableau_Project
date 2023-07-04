@@ -17,7 +17,8 @@ The main results I would convey to a prospective host are emphasizing things the
 The Cluster analysis reinforced these ideas in that Neighborhood and Room Type were at the root for cluster formation no many how many other variables I added or removed from the model. The final clusters aso relied on splitting the units into a 60-40 split of inexperienced and more experienced hosts at about 32 months of hosting.
 I used the site Word Art to use the variable "Name," which actually contained a brief description of a unit, to create a word cloud highlighting the most common words used. This graphic was included to illustrate what hosts feel is worthwhile to emphasize, and users can use it as a filter to see if listings using a word like "sunny," "modern," or "cozy" are part of a distribution in prices or volume of reviews that the user covets.
 The dashboard brings these ideas together, so users can quickly assess the impact of a set of listing variables like room type, ZIP code, an adjective on the prices seen.
-    ##Key Insights:
+    
+##Key Insights:
     1) Location of a unit will largely determine the price, regardless of other features, reviews, or the host's level of experience.
     2) The number of beds influences price and is something more easily controlled by a host.
     3) Market prices dominate, so hosts should not expect any premium for higher levels of hosting experience.
