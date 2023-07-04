@@ -3,6 +3,11 @@
 ## Project/Goals
 This project utilized Tableau to investigate and describe factors associated with prices and the number of reviews received by more than 30,000 AirBnB listings in New York City from 2008-15, based on a dataset from Inside AirBnB. My goal was to create interactive visualizations to aid a prospective AirBnB host in forming expectations and making business decisions based on the location and type of unit they might list.
 
+## Key Insights:
+    1) Location of a unit will largely determine the price, regardless of other features, reviews, or the host's level of experience.
+    2) The number of beds influences price and is something more easily controlled by a host.
+    3) Market prices dominate, so hosts should not expect any premium for higher levels of hosting experience.
+
 ## Process
 ### Step 1
 The first step was exploring the data. Right off, mapping the locations revealed a number of listings from outside New York, whether in nearby communities in New York State and New Jersey all the way to units in Washington State on the opposite side of the continent. After eliminating those ZIP codes, I calculated means and medians for the numerical options like the number of beds (which is different than bedrooms) and how many reviews a listing has received. The medians were needed because outliers routinely skewed distributions to the right.
@@ -17,11 +22,6 @@ The main results I would convey to a prospective host are emphasizing things the
 The Cluster analysis reinforced these ideas in that Neighborhood and Room Type were at the root for cluster formation no many how many other variables I added or removed from the model. The final clusters aso relied on splitting the units into a 60-40 split of inexperienced and more experienced hosts at about 32 months of hosting.
 I used the site Word Art to use the variable "Name," which actually contained a brief description of a unit, to create a word cloud highlighting the most common words used. This graphic was included to illustrate what hosts feel is worthwhile to emphasize, and users can use it as a filter to see if listings using a word like "sunny," "modern," or "cozy" are part of a distribution in prices or volume of reviews that the user covets.
 The dashboard brings these ideas together, so users can quickly assess the impact of a set of listing variables like room type, ZIP code, an adjective on the prices seen.
-    
-##Key Insights:
-    1) Location of a unit will largely determine the price, regardless of other features, reviews, or the host's level of experience.
-    2) The number of beds influences price and is something more easily controlled by a host.
-    3) Market prices dominate, so hosts should not expect any premium for higher levels of hosting experience.
 
 ## Challenges 
 The challenges revolved around wishing for additional data, such as dates units were rented, duration of the rental period, and how many units hosts own to better understand the competition new hosts face, particularly in the form of market power the biggest players might leverage. I used the number of reviews as a proxy ceiling for the number of times a unit had been rented, but how good that a proxy that is remains unknown. I also struggled with visualizations using ZIP codes. The ZIPs are impactful variables, but NYC is so dense a population that even a single burrough has dozens. So the filter has a large number of ticky boxes, which is not as elegant to view as I would like.
